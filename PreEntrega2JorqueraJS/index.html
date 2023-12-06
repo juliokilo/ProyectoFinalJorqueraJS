@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inscripción de Participantes</h1>
+  <label for="nombre">Nombre Completo:</label>
+  <input type="text" id="nombre"><br><br>
+
+  <label for="correo">Correo Electrónico:</label>
+  <input type="text" id="correo"><br><br>
+
+  <label for="telefono">Número de Teléfono:</label>
+  <input type="text" id="telefono"><br><br>
+
+  <label for="edad">Edad:</label>
+  <input type="text" id="edad"><br><br>
+
+  <button onclick="guardarParticipante()">Inscribir</button>
+  <p id="mensaje"></p>
+
+  <hr>
+
+  <h2>Búsqueda de Participante</h2>
+  <label for="buscarNombre">Buscar por Nombre:</label>
+  <input type="text" id="buscarNombre">
+  <button onclick="buscarParticipante()">Buscar</button>
+  <div id="resultado"></div>
+
+  <hr>
+    <script src="main2.js"></script>
+</body>
+</html>
