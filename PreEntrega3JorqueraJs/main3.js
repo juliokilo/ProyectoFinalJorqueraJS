@@ -5,10 +5,6 @@ function guardarParticipante() {
     let correo = document.getElementById("correo").value;
     let telefono = parseInt(document.getElementById("telefono").value);
     let edad = parseInt(document.getElementById("edad").value);
-    nombre.value = "";
-    correo.value = "";
-    telefono.value = "";
-    edad.value = "";
 
     if (nombre && edad && correo) {
         if (edad >= 18) {
@@ -16,6 +12,10 @@ function guardarParticipante() {
             participantes.push(participante);
             localStorage.setItem('participantes', JSON.stringify(participantes));
             document.getElementById("mensaje").innerText = "¡Felicidades, usted está inscrito!";
+            document.getElementById("nombre").value = "";
+            document.getElementById("correo").value = "";
+            document.getElementById("telefono").value = "";
+            document.getElementById("edad").value = "";
         } else {
             document.getElementById("mensaje").innerText = "Lamentablemente debe ser mayor de 18 años para inscribirse";
         }
