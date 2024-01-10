@@ -1,0 +1,22 @@
+{
+    "participantes":[
+    {
+    "nombre": "Juan Perez",
+    "correo": "juan49@gmail.com",
+    "telefono": "01123658989",
+    "edad": 31
+    },
+    {
+    "nombre": "Julio Antonio",
+    "correo": "gyhu1212@gmail.com",
+    "telefono": "01134567894",
+    "edad": 25
+    },
+    {
+    "nombre": "Diego",
+    "correo": "vtuyo@gmail.com",
+    "telefono": "01178510727",
+    "edad": 47
+    }
+]
+}
